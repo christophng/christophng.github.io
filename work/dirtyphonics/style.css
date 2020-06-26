@@ -1,0 +1,274 @@
+@charset "utf-8";
+/*
+
+####################################################################
+
+Website by https://www.partagons.com Creative Agency
+Christopher Ng
+christopher@partagons.com
+
+####################################################################
+	
+*/
+
+
+/*The navbar stuff*/
+
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css');
+.center {
+    margin: auto;
+    width: 51%;
+}
+html {
+  background-color: black;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.navbar {
+  background-color: black;
+  color: black;
+  margin-bottom: 0!important;
+}
+
+.icon-bar {
+  color: #FFFFFF;
+}
+
+button {
+  color: #FFFFFF;
+  outline: none;
+  border: 0px;
+  text-align: center!important;
+}
+
+.navbar-header {
+  background-color: black;
+  color: black;
+  border: 0px;
+}
+
+.navbar-inverse {
+  background-color: black;
+  color: black;
+}
+
+#navMenu {
+  color: black;
+  background-color: black;
+}
+
+.container-fluid {
+  color: black;
+  background-color: black;
+}
+
+li {
+  color: #ffffff;
+  text-align: center;
+}
+
+.navbar-toggle {
+  border: none!important;
+  outline: none!important;
+  float: none;
+  background-color: #000000!important;
+}
+
+.navbar-toggle:hover {
+  outline: none!important;
+  background-color: #000000!important;
+}
+
+.navbar-toggle:before {
+  outline: none!important;
+  background-color: #000000!important;
+}
+
+.navbar-toggle:hover:before {
+  outline: none!important;
+  background-color: #000000!important;
+}
+
+.navbar-toggle:active {
+  outline: none!important;
+  background-color: #000000!important;
+}
+.navbar-toggle:link {
+  outline: none!important;
+  background-color: #000000!important;
+}
+.navbar-toggle:visited {
+  outline: none!important;
+  background-color: #000000!important;
+}
+a.navtext {
+  color: #ffffff;
+  border: 3px solid #000000;
+  width: 100px auto;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+a.navtext:hover {
+  border: 3px solid #F22613!important;
+  background: #F22613!important;
+}
+
+a.navtext:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.navtext:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+ul.nav {
+  text-align: center!important;
+}
+
+/*The dirtyphonics logo stuff*/
+.img-responsive {
+    margin: 0 auto;
+}
+
+/*The social media bar stuff*/
+ul {
+    padding:0;
+	text-align: center!important;
+}
+.footer-social {
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+	background-color: #000000;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+	text-align: center;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 16px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+	color: #ffffff;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+	color: #ffffff;
+}
+.fa-soundcloud {
+    padding:10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-soundcloud:hover {
+    background-color: #eb8231;
+	color: #ffffff;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+	color: #ffffff;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-instagram:hover {
+    background-color: #0073a4;
+	color: #ffffff;
+}
+.fa-spotify {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #000000;
+    font-size: 1.5em;
+}
+.fa-spotify:hover {
+    background-color: #e25714;
+	color: #ffffff;
+}
+div {
+	background-color: #000000;
+
+}
+center {
+	background-color: #000000;
+}

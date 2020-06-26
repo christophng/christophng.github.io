@@ -454,6 +454,7 @@ a.footerUla:hover:before {
   background: -o-linear-gradient(right, #3494E6 , #EC6EAD);
   background: -moz-linear-gradient(right, #3494E6 , #EC6EAD);
   background: linear-gradient(to right, #3494E6 , #EC6EAD);
+  padding-bottom: 100px;
 }
 .workPortfolioTitle {
   font-family: "StratumNo1Bold";
@@ -464,6 +465,7 @@ a.footerUla:hover:before {
 }
 .workShowcase {
   padding-top: 30px;
+  padding-bottom: 80px;
 }
 .workShowcaseTable1,.workShowcaseTable2,.workShowcaseTable3 {
   text-align: center;
@@ -479,6 +481,13 @@ a.footerUla:hover:before {
 }
 .workShowcaseTableContent {
   text-align: center;
+  margin-left: 7px;
+  font-family: "StratumNo1Regular";
+  font-size: 20px;
+  letter-spacing: -1.1px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 500;
 }
 
 /********************************/
